@@ -1,13 +1,16 @@
 # Your code goes here!
 class Dog
-
-  def name
-
-    puts "Fido"
-
+  def name=(dogs_name)
+    @dogs_name
   end
 
+  def name
+  @dogs_name
+  end
+end
 
-  Dog = Dog.new
+lassie = Dog.new
+lassie.name = "Lassie"
 
-  puts Dog.name
+puts lassie.name
+ 
